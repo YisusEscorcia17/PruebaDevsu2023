@@ -1,0 +1,1 @@
+En conclusion el proyecto se debe ejecutar por maven y luego tener en cuenta los pasos para su parametrias que se generaron desde el readme, tambien se hizo algo super chevre es que se van a tomar los datos desde un archivo plano para los datos, sin mas preambulos. se va a subir el proyecto tambien a mi repositorio personal si tambien quieren verlo desde ahí. 

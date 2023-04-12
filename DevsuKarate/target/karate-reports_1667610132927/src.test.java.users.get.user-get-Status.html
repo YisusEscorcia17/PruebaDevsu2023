@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.users.get.user-get-Status</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-11-04 06:24:06 p. m.</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:3]"><span>[1:3]</span> <span>serch to  pet for status</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/users/get/user-get-Status.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Get  user on petstore for status</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:3]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:3]</span>
+                <span class="scenario-name">serch to  pet for status</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>2155</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref passed">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &quot;https://petstore.swagger.io/v2&quot;+&quot;/pet/findByStatus?status=sold&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">202</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref passed">5</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1952</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">18:24:05.628 request:
+1 &gt; GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+18:24:06.436 response time in milliseconds: 800
+1 &lt; 200
+1 &lt; Date: Fri, 04 Nov 2022 23:24:07 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+[{&quot;id&quot;:9,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;cats&quot;},&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17,&quot;name&quot;:&quot;Special_char_owner_!@#$^&amp;()`.testing&quot;,&quot;photoUrls&quot;:[&quot;https://petstore3.swagger.io/resources/photos/623389095.jpg&quot;],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:19467,&quot;name&quot;:&quot;見響见响仮仏!$%&amp;()*+,-ƄƅƆḞḟṀʶʷʸăĄą&quot;,&quot;photoUrls&quot;:[&quot;https://petstore3.swagger.io/resources/photos/623389095.jpg&quot;],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:62887057,&quot;category&quot;:{&quot;id&quot;:-1967395,&quot;name&quot;:&quot;sit&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;in velit voluptate pariatur&quot;,&quot;aute adipisicing culpa minim&quot;],&quot;tags&quot;:[{&quot;id&quot;:-69873880,&quot;name&quot;:&quot;eu laborum dolore proident&quot;},{&quot;id&quot;:17896414,&quot;name&quot;:&quot;aliquip L&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:36872199,&quot;category&quot;:{&quot;id&quot;:87131763,&quot;name&quot;:&quot;consectetur&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;officia&quot;,&quot;fugiat Duis sint&quot;],&quot;tags&quot;:[{&quot;id&quot;:-32111804,&quot;name&quot;:&quot;sit consectetur&quot;},{&quot;id&quot;:-4313164,&quot;name&quot;:&quot;consectetur nulla laborum id&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:49199499,&quot;category&quot;:{&quot;id&quot;:20305865,&quot;name&quot;:&quot;et cupidatat nisi incididunt&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;sunt esse consequat&quot;,&quot;Ut nostrud anim adipisicing&quot;],&quot;tags&quot;:[{&quot;id&quot;:33995919,&quot;name&quot;:&quot;tempor non nostrud&quot;},{&quot;id&quot;:-54707686,&quot;name&quot;:&quot;qui pariatur&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:2143666,&quot;category&quot;:{&quot;id&quot;:-59591221,&quot;name&quot;:&quot;Duis aute&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;sunt culpa aliqua in&quot;,&quot;ex Excepteur dolore mollit&quot;],&quot;tags&quot;:[{&quot;id&quot;:47718024,&quot;name&quot;:&quot;nisi proident enim non incididunt&quot;},{&quot;id&quot;:597384,&quot;name&quot;:&quot;aute est cillum&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:29798634,&quot;category&quot;:{&quot;id&quot;:-94022803,&quot;name&quot;:&quot;fish&quot;},&quot;name&quot;:&quot;Name&quot;,&quot;photoUrls&quot;:[&quot;mollit dolor sunt&quot;,&quot;https://www.google.com/imgres?imgurl=https%3A%2F%2Fres.cloudinary.com%2Fdk-find-out%2Fimage%2Fupload%2Fq_80%2Cw_1920%2Cf_auto%2FDCTM_Penguin_UK_DK_AL644648_p7nd0z.jpg&amp;imgrefurl=https%3A%2F%2Fwww.dkfindout.com%2Fuk%2Fanimals-and-nature%2Ffish%2Fwhat-is-fish%2F&amp;tbnid=MveprXRS9aQbrM&amp;vet=12ahUKEwiIr8vJ7Nn4AhUH57sIHZQxDSYQMygCegUIARC8AQ..i&amp;docid=KLzen7t0FblZ7M&amp;w=1920&amp;h=1030&amp;q=fish&amp;ved=2ahUKEwiIr8vJ7Nn4AhUH57sIHZQxDSYQMygCegUIARC8AQ&quot;],&quot;tags&quot;:[{&quot;id&quot;:-59367625,&quot;name&quot;:&quot;quis et&quot;},{&quot;id&quot;:-59958608,&quot;name&quot;:&quot;laborum magna dolore consequat&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:2979863411,&quot;category&quot;:{&quot;id&quot;:-94022803,&quot;name&quot;:&quot;fish&quot;},&quot;name&quot;:&quot;Name fish&quot;,&quot;photoUrls&quot;:[&quot;mollit dolor sunt&quot;,&quot;https://www.google.com/imgres?imgurl=https%3A%2F%2Fres.cloudinary.com%2Fdk-find-out%2Fimage%2Fupload%2Fq_80%2Cw_1920%2Cf_auto%2FDCTM_Penguin_UK_DK_AL644648_p7nd0z.jpg&amp;imgrefurl=https%3A%2F%2Fwww.dkfindout.com%2Fuk%2Fanimals-and-nature%2Ffish%2Fwhat-is-fish%2F&amp;tbnid=MveprXRS9aQbrM&amp;vet=12ahUKEwiIr8vJ7Nn4AhUH57sIHZQxDSYQMygCegUIARC8AQ..i&amp;docid=KLzen7t0FblZ7M&amp;w=1920&amp;h=1030&amp;q=fish&amp;ved=2ahUKEwiIr8vJ7Nn4AhUH57sIHZQxDSYQMygCegUIARC8AQ&quot;],&quot;tags&quot;:[{&quot;id&quot;:-59367625,&quot;name&quot;:&quot;quis et&quot;},{&quot;id&quot;:-59958608,&quot;name&quot;:&quot;laborum magna dolore consequat&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:2022,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;Vasya dog&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;}]
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref passed">6</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
